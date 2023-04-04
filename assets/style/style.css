@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
 * {
   box-sizing: border-box;
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
 }
 
 html {
@@ -35,7 +35,7 @@ h1 {
   text-align: center;
 }
 
-.myCapacity {
+.my-Capacity {
   border: none;
   display: flex;
   height: 40px;
@@ -45,7 +45,7 @@ h1 {
   width: 100px;
 }
 
-#mySelect {
+#my-Select {
   background: white;
   border: none;
   cursor: pointer;
@@ -58,11 +58,11 @@ h1 {
   width: 150px;
 }
 
-.knapsackStatus {
+.knapsack-Status {
   background-color: #f0ffff;
   border: 1px solid transparent;
   display: flex;
-  font-family: 'Mulish', sans-serif;
+  font-family: Mulish, sans-serif;
   font-size: 18px;
   font-weight: bold;
   height: 150px;
