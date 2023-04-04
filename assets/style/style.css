@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+html {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.pagecontent {
+  align-items: center;
+  display: flex;
+  height: 96vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: khaki;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  height: 480px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.myCapacity {
+  border: none;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+}
+
+#mySelect {
+  background: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  height: 40px;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 150px;
+}
+
+.knapsackStatus {
+  background-color: #f0ffff;
+  border: 1px solid transparent;
+  display: flex;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 150px;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 30px auto;
+  overflow-y: auto;
+  padding-top: 10px;
+  width: 250px;
+}
+
+.btn {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.btn1 {
+  background: palegreen;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.btn2 {
+  background: darkred;
+  border: none;
+  color: #f0ffff;
+  cursor: pointer;
+  padding: 8px 16px;
+}
