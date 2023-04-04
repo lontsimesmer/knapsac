@@ -35,7 +35,7 @@ h1 {
   text-align: center;
 }
 
-.my-Capacity {
+.my-capacity {
   border: none;
   display: flex;
   height: 40px;
@@ -45,7 +45,7 @@ h1 {
   width: 100px;
 }
 
-#my-Select {
+#my-select {
   background: white;
   border: none;
   cursor: pointer;
@@ -58,7 +58,7 @@ h1 {
   width: 150px;
 }
 
-.knapsack-Status {
+.knapsack-status {
   background-color: #f0ffff;
   border: 1px solid transparent;
   display: flex;

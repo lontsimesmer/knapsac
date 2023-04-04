@@ -27,9 +27,9 @@ const items = [
   { name: 'smartphone', weight: 2, value: 3 }
 ]
 
-const mySelect = document.getElementById('my-Select')
-const myCapacity = document.querySelector('.my-Capacity')
-const knapsackStatus = document.querySelector('.knapsack-Status')
+const mySelect = document.getElementById('my-select')
+const myCapacity = document.querySelector('.my-capacity')
+const knapsackStatus = document.querySelector('.knapsack-status')
 const btn1 = document.querySelector('.btn1')
 const btn2 = document.querySelector('.btn2')
 
