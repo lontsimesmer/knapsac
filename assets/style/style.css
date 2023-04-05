@@ -26,7 +26,7 @@ html {
   background-color: khaki;
   border: 1px solid transparent;
   border-radius: 15px;
-  height: 480px;
+  height: 500px;
   width: 300px;
 }
 
@@ -35,7 +35,7 @@ h1 {
   text-align: center;
 }
 
-.my-capacity {
+.capacity {
   border: none;
   display: flex;
   height: 40px;
@@ -45,7 +45,7 @@ h1 {
   width: 100px;
 }
 
-#my-select {
+#select {
   background: white;
   border: none;
   cursor: pointer;
@@ -63,9 +63,9 @@ h1 {
   border: 1px solid transparent;
   display: flex;
   font-family: Mulish, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  height: 150px;
+  height: 130px;
   justify-content: center;
   line-height: 1.5;
   margin: 30px auto;
@@ -74,24 +74,53 @@ h1 {
   width: 250px;
 }
 
+.final-state {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  font-size: 18px;
+  height: 40px;
+  justify-content: center;
+  margin: -30px auto;
+  width: 180px;
+}
+
 .btn {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   justify-content: center;
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 .btn1 {
-  background: palegreen;
   border: none;
   cursor: pointer;
   padding: 8px 16px;
 }
 
+.btn1:hover {
+  background: green;
+  color: #fff;
+}
+
 .btn2 {
-  background: darkred;
   border: none;
-  color: #f0ffff;
   cursor: pointer;
   padding: 8px 16px;
+}
+
+.btn2:hover {
+  background: red;
+  color: #fff;
+}
+
+.btn3 {
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.btn3:hover {
+  background: yellow;
+  color: #fff;
 }
