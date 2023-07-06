@@ -7,66 +7,107 @@
 }
 
 html {
+  align-items: center;
   display: flex;
-  font-family: "Times New Roman", Times, serif;
   justify-content: center;
-  margin: 0;
   min-height: 100vh;
-  padding: 0;
+  overflow-x: hidden;
 }
 
 .pagecontent {
-  align-items: center;
+  border: 1px solid #eee;
   display: flex;
-  height: 96vh;
-  justify-content: center;
-}
-
-.container {
-  background-color: khaki;
-  border: 1px solid transparent;
-  border-radius: 15px;
-  height: 500px;
-  width: 300px;
+  flex-direction: column;
+  max-width: 100%;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
 h1 {
-  font-size: 40px;
   text-align: center;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 25px;
 }
 
 .capacity {
-  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   display: flex;
-  height: 40px;
-  justify-content: center;
+  font-family: "Mulish", sans-serif;
+  height: 35px;
   margin: 0 auto;
-  text-align: center;
-  width: 100px;
+  padding: 5px 15px;
+  width: 500px;
 }
 
 #select {
-  background: white;
-  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   cursor: pointer;
   display: flex;
+  font-family: "Mulish", sans-serif;
   font-size: 15px;
   height: 40px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  width: 500px;
+}
+
+.label {
+  line-height: 2;
+}
+
+.input-button {
+  display: flex;
+  gap: 20px;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.btn1 {
+  background-color: #556b2f;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #556b2f;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  width: 240px;
+}
+
+.btn2 {
+  background-color: #b8860b;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #b8860b;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  width: 240px;
+}
+
+.output-field {
+  border: 2px solid #f0f8ff;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
   margin: 20px auto;
-  padding: 10px;
-  width: 150px;
+  padding: 0 20px;
+  width: 95%;
 }
 
 .knapsack-status {
-  background-color: #f0ffff;
-  border: 1px solid transparent;
-  display: flex;
+  align-items: center;
+  /* background-color: #e2f4e2; */
   font-family: Mulish, sans-serif;
   font-size: 15px;
   font-weight: bold;
-  height: 130px;
-  justify-content: center;
   line-height: 1.5;
   margin: 30px auto;
   overflow-y: auto;
@@ -74,53 +115,14 @@ h1 {
   width: 250px;
 }
 
-.final-state {
-  align-items: center;
-  background-color: #eee;
-  display: flex;
-  font-size: 18px;
-  height: 40px;
-  justify-content: center;
-  margin: -30px auto;
-  width: 180px;
-}
-
-.btn {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin: 60px auto;
-}
-
-.btn1 {
-  border: none;
-  cursor: pointer;
-  padding: 8px 16px;
-}
-
-.btn1:hover {
-  background: green;
-  color: #fff;
-}
-
-.btn2 {
-  border: none;
-  cursor: pointer;
-  padding: 8px 16px;
-}
-
-.btn2:hover {
-  background: red;
-  color: #fff;
-}
-
 .btn3 {
+  background-color: #d3d3d3;
   border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #d3d3d3;
+  color: #556b2f;
   cursor: pointer;
+  margin: 10px auto;
   padding: 8px 16px;
-}
-
-.btn3:hover {
-  background: yellow;
-  color: #fff;
+  width: 92%;
 }

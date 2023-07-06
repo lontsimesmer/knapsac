@@ -51,7 +51,7 @@ done.onclick = function getOption () {
             ' ' +
             `value= ${items[i].value}` +
             '<br>'
-          results.innerHTML = `weight: ${sumWeight}; value: ${sumValue}`
+          results.innerHTML = `Total weight: ${sumWeight}Kg` `Total price(XAF): ${sumValue}`
         } else {
           window.alert(`Exceeded maximum weight of ${inputVal}kg`)
         }
