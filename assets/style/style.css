@@ -3,7 +3,6 @@
 
 * {
   box-sizing: border-box;
-  font-family: Lora, serif;
 }
 
 html {
@@ -24,12 +23,14 @@ html {
 }
 
 h1 {
+  font-family: lora, sans-serif;
   text-align: center;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
+  font-family: lora, sans-serif;
   justify-content: center;
   gap: 10px;
   padding: 10px 25px;
@@ -77,6 +78,7 @@ h1 {
   box-shadow: 2px 4px 6px #556b2f;
   color: #fff;
   cursor: pointer;
+  font-family: lora, sans-serif;
   padding: 8px 16px;
   width: 240px;
 }
@@ -88,6 +90,7 @@ h1 {
   box-shadow: 2px 4px 6px #b8860b;
   color: #fff;
   cursor: pointer;
+  font-family: lora, sans-serif;
   padding: 8px 16px;
   width: 240px;
 }
@@ -95,24 +98,30 @@ h1 {
 .output-field {
   border: 2px solid #f0f8ff;
   display: flex;
+  font-family: lora, sans-serif;
   gap: 30px;
   justify-content: flex-start;
   margin: 20px auto;
-  padding: 0 20px;
+  padding: 0 20px 10px 20px;
   width: 95%;
 }
 
 .knapsack-status {
-  align-items: center;
-  /* background-color: #e2f4e2; */
-  font-family: Mulish, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 1.5;
-  margin: 30px auto;
-  overflow-y: auto;
-  padding-top: 10px;
   width: 250px;
+}
+
+li {
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.final-state {
+  font-family: "Mulish", sans-serif;
+  margin-top: 30px;
 }
 
 .btn3 {
@@ -122,6 +131,7 @@ h1 {
   box-shadow: 2px 4px 6px #d3d3d3;
   color: #556b2f;
   cursor: pointer;
+  font-family: lora, sans-serif;
   margin: 10px auto;
   padding: 8px 16px;
   width: 92%;
