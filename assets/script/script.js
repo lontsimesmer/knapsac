@@ -60,7 +60,7 @@ done.onclick = function getOption () {
             </div>
           `
         } else {
-          window.alert(`Exceeded maximum weight of ${inputVal}kg`)
+          window.alert(`Exceeds maximum weight of ${inputVal}kg`)
           done.disabled = true
           itemList.style.backgroundColor = '#f08080'
         }

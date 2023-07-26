@@ -112,7 +112,7 @@ h1 {
 
 li {
   align-items: center;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #d3d3d3;
   display: flex;
   font-family: Mulish, sans-serif;
   justify-content: space-between;
