@@ -1,7 +1,7 @@
 # JS Knapsack
 Given a knapsack with a certain weight capacity, fill it with loot from a list of items to achieve the highest value possible.
 ## App
-![sac](assets/image/sack.png)
+![sac](assets/imag/sack.png)
 ### Built with
 - HTML
 - CSS
@@ -27,4 +27,4 @@ Get a local copy of this project by following the steps below:
 We welcome contributions, issues and feature request.
 Feel free to check the [issues page](https://github.com/Nathanael-Lontsi/knapsac/issues)
 ## :memo :License
-This project is [rebaseacademy](./LICENSE) licensed.
+This project is [Nathanael-Lontsi](./LICENSE) licensed.
