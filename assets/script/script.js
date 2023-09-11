@@ -11,7 +11,7 @@ const items = [
   { name: 'cake', weight: 5, value: 125 },
   { name: 'shoe', weight: 12, value: 5000 },
   { name: 'balloon', weight: 5, value: 25 },
-  { name: 'computer', weight: 50, value: 100000 },
+  { name: 'computer', weight: 50, value: 150000 },
   { name: 'iPhone', weight: 15, value: 300000 },
   { name: 'stopwatch', weight: 2, value: 800 },
   { name: 't-shirt', weight: 4, value: 2500 },
