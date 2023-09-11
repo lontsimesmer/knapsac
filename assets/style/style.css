@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.pagecontent {
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-family: lora, sans-serif;
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  font-family: lora, sans-serif;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 25px;
+}
+
+.capacity {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  font-family: Mulish, sans-serif;
+  height: 35px;
+  margin: 0 auto;
+  outline: 2px solid #f0f8ff;
+  padding: 5px 15px;
+  width: 500px;
+}
+
+#select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  height: 40px;
+  margin: 0 auto;
+  outline: 2px solid #f0f8ff;
+  padding: 5px 15px;
+  width: 500px;
+}
+
+.input-button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn1 {
+  background-color: #556b2f;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #556b2f;
+  color: #fff;
+  cursor: pointer;
+  font-family: lora, sans-serif;
+  padding: 8px 16px;
+  width: 240px;
+}
+
+.btn2 {
+  background-color: #b8860b;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #b8860b;
+  color: #fff;
+  cursor: pointer;
+  font-family: lora, sans-serif;
+  padding: 8px 16px;
+  width: 240px;
+}
+
+.output-field {
+  border: 2px solid #f0f8ff;
+  display: flex;
+  font-family: lora, sans-serif;
+  gap: 30px;
+  justify-content: flex-start;
+  margin: 20px auto;
+  padding: 0 20px 10px;
+  width: 95%;
+}
+
+.knapsack-status {
+  width: 250px;
+}
+
+li {
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  display: flex;
+  font-family: Mulish, sans-serif;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.final-state {
+  font-family: Mulish, sans-serif;
+  margin-top: 30px;
+}
+
+.btn3 {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #d3d3d3;
+  color: #556b2f;
+  cursor: pointer;
+  font-family: lora, sans-serif;
+  margin: 10px auto;
+  padding: 8px 16px;
+  width: 90%;
+}
